@@ -1,0 +1,16 @@
+net: "dogsvscats/models/caffenet/caffenet_trainval.prototxt"
+
+base_lr: 0.001
+lr_policy: "step"
+gamma: 0.1
+stepsize: 10000
+weight_decay: 0.0005
+
+display: 20
+max_iter: 40000
+momentum: 0.9
+
+snapshot: 5000
+snapshot_prefix: "dogsvscats/models/caffenet/exp/trainval/caffenet"
+
+solver_mode: GPU
