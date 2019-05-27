@@ -83,3 +83,9 @@ python make_predictions.py
 `make_predictions.py` will generate `submission.csv` which can be submitted to Kaggle [
 Dogs vs. Cats](https://www.kaggle.com/c/dogs-vs-cats/overview) challenge.
 
+---
+
+## Reference
+
+1. [A Practical Introduction to Deep Learning with Caffe and Python](http://adilmoujahid.com/posts/2016/06/introduction-deep-learning-python-caffe/)
+2. [【caffe源码研究】第二章：实战篇(1) : 字符识别项目](https://blog.csdn.net/fangjin_kl/article/details/53889190)
