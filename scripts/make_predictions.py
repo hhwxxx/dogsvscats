@@ -28,13 +28,13 @@ parser.add_argument(
     help='Deploy prototxt.')
 parser.add_argument(
     '--caffemodel',
-    default='/home/hhw/hhw/work/caffe/dogsvscats/models/caffenet/exp/train/caffenet_iter_40000.caffemodel',
+    default='/home/hhw/hhw/work/caffe/dogsvscats/models/caffenet/exp/train/caffenet_iter_15000.caffemodel',
     help='Trained caffe model.')
 parser.add_argument('--test_data_path',
                     default='/home/hhw/hhw/work/caffe/dogsvscats/data/test1',
                     help='Directory containing test data.')
 parser.add_argument('--csv_file',
-                    default='/home/hhw/hhw/work/caffe/dogsvscats/caffenet/exp/submission.csv',
+                    default='/home/hhw/hhw/work/caffe/dogsvscats/models/caffenet/exp/submission.csv',
                     help='Submission csv filename.')
 
 args = parser.parse_args()

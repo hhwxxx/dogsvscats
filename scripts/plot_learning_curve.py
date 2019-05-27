@@ -15,7 +15,7 @@ plt.style.use('ggplot')
 
 parser = argparse.ArgumentParser(description='Plot curves.')
 parser.add_argument('--caffe_root',
-                    default='/home/hhw/hhw/work/caffe/dogsvscats',
+                    default='/home/hhw/hhw/work/caffe',
                     help='Root directory of caffe.')
 parser.add_argument(
     '--log_file',
